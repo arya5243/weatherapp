@@ -1,0 +1,159 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 192, 192);
+    font-family:sans-serif;
+}
+
+.card{
+    border: none;
+    height: 600px;
+    width: 300px;
+    border-radius:10px;
+    background-color:hsl(0, 0%, 95%);
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    transition: ease-in 0.5s;
+}
+
+h1{
+    text-align:center;
+    font-weight: 700;
+    margin-left: 5px;
+}
+#int{
+    background-color:rgb(255, 255, 255);
+    width: 90%;
+    margin-left: 3px;
+    margin-top: 10px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: b;
+    border: none;
+}
+#int::placeholder{
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+}
+#work{
+    width: 90%;
+    height: fit fit-content;
+    margin-bottom: 44px;
+    transition: ease-in 1s;
+
+
+}
+#work button{
+    margin-left: 92px;
+    margin-top: 15px;
+    height: 30px;
+    width: 100px;
+    background-color:hsl(160, 100%, 42%);
+    border-radius:8px;
+    border:none;
+    font-weight: 700;
+    cursor:pointer;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#work button:hover{
+    background-color: hsl(160, 100%, 50%);
+}
+.card img{
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+.app-logo{
+
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    height: 73px;
+
+}
+.new-div{
+    border:2px solid;
+    height: 360px;
+    margin-top:20px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 90%;
+    margin-top: -40px;
+    font-size: 2rem;
+    background: linear-gradient(150deg,#43c6ff,#4a4472);
+    text-align: center;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    border: none;
+    padding:8px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+#cloud{
+    border: ;
+    height: 100px;
+    width: 100px;
+    margin-left: 34%;
+    margin-top: -70px;
+    align-items: center;
+}
+.new-div h2{
+    margin-bottom: 12px;
+    margin-top: -2px;
+
+}
+#humd{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -0px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -5px;
+}
+#f-humd{
+    margin-top: 330px;
+    position: absolute;
+    margin-left: 42px;
+    font-size: 1rem;
+}
+#speed{
+    height: 50px;
+    width: 50px;
+    margin-left: 129px;
+    margin-top: 300px;
+    position: absolute;
+    
+}
+#f-speed{
+    position: absolute;
+    text-align:right;
+    margin-left: 180px;
+    margin-top: 325px;
+    font-size: 1rem;
+}
+.fa{
+    font-size: 10px;
+}
+#btn{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+#btn i{
+    font-size: 20px;
+}
