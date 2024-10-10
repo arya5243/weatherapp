@@ -157,3 +157,185 @@ h1{
 #btn i{
     font-size: 20px;
 }
+
+@media only screen and (max-width:375px ){
+    .card{
+        width: 83%;
+        height:650px;
+        margin-top:20px;
+        border-radius: 8px;
+        background-color: #fff;
+
+    }
+    body{
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    
+    .new-div{
+        height: 25rem;
+        width: 105%;
+    }
+    body{
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    #speed{
+        margin-left: 180px;
+    }
+    #f-speed{
+        margin-left: 235px;
+        font-size: 1.3rem;
+    }
+    #f-humd{
+        font-size: 1.3rem;
+    }
+    #loct{
+        font-size: 3.4rem;
+    }
+}
+@media only screen and (width:390px ){
+    .card{
+        width: 83%;
+        height:100%;
+        margin-top: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 50px;
+
+    }
+    #int{
+        background-color:#ffffff;
+        border: 1px solid;
+        width: 90%;
+    }
+    h1{
+        margin-left: 15px;
+    }
+    .new-div{
+        height: 500px;
+        width: 105%;
+    }
+    body{
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    #speed{
+        margin-left: 165px;
+    }
+    #f-speed{
+        margin-left: 220px;
+        font-size: 1.3rem;
+    }
+    #f-humd{
+        font-size: 1.3rem;
+    }
+    #loct{
+        font-size: 3.4rem;
+    }
+}
+
+@media only screen and (min-width:390px ){
+    .card{
+        width: 83%;
+        height:100%;
+        margin-top: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 50px;
+
+    }
+    #int{
+        background-color:#ffffff;
+        border: 1px solid;
+        width: 90%;
+    }
+    h1{
+        margin-left: 15px;
+    }
+    .new-div{
+        height: 500px;
+        width: 105%;
+    }
+    body{
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    #speed{
+        margin-left: 165px;
+    }
+    #f-speed{
+        margin-left: 220px;
+        font-size: 1.3rem;
+    }
+    #f-humd{
+        font-size: 1.3rem;
+    }
+    #loct{
+        font-size: 3.4rem;
+    }
+    
+}
+
+@media only screen and (min-width:400px ){
+    .card{
+        width: 83%;
+        height:100%;
+        margin-top: 20px;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-top: 50px;
+
+    }
+    #btn{
+        margin-left: 5000px;
+    }
+    #int{
+        background-color:#ffffff;
+        border: 1px solid;
+        width: 100%;
+        font-size: 1rem;
+        height: 30px;
+        align-items: center;
+        margin-left: -3%;
+
+    }
+    h1{
+        margin-left: 15px;
+    }
+    .new-div{
+        height: 570px;
+        width: 105%;
+    }
+    body{
+        background-color: #fff;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    #speed{
+        margin-left: 190px;
+    }
+    #f-speed{
+        margin-left: 250px;
+        font-size: 2rem;
+        margin-top: 340px;
+        display: flex;
+        flex-direction: row;
+        line-height: 40px;
+    }
+    #f-humd{
+        font-size: 2rem;
+    }
+    #loct{
+        font-size: 3.7rem;
+    }
+    #cloud{
+        height: 150px;
+        width: 150px;
+        margin-top: -120px;
+    }
+}
